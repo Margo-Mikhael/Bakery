@@ -1,0 +1,456 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Alegreya', serif;
+}
+
+.home {
+    background-image: url(./imgs/drew-coffman-1872.jpg);
+    height: 80vh;
+    background-position: center center;
+    overflow: hidden;
+}
+
+
+.home-content
+{
+    margin: auto;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+nav
+{
+    /* background-color: red; */
+    /* position: fixed;
+    top: 0; */
+}
+
+.nav-logo
+{
+    width: 15%;
+    float: left;
+    /* background-color: aqua; */
+    overflow: auto;
+    margin-top: 10px;
+}
+.nav-logo img
+{
+    width: 100%;
+}
+.nav-links {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.nav-links ul li {
+    float: left;
+    padding: 15px;
+}
+
+.nav-links ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links ul
+{
+    list-style: none;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.container
+{
+    width: 60%;
+    margin: auto;
+    /* margin-top: 20px; */
+}
+
+.home-content p
+{
+    font-size: 23px;
+}
+
+.home-content h1
+{
+    font-size: 76px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.btn
+{
+    padding: 17px;
+    color: white;
+    margin: 20px 5px;
+    border-radius: 5px;
+    font-size: 17;
+}
+
+.home-content .btn1
+{
+    background-color: #8e7754;
+    border: 0px;
+   
+}
+
+.btn1:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.home-content .btn2
+{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btn2:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.scroll
+{
+    width: 25px;
+    height: 40px;
+    border: 2px solid white;
+    margin: auto;
+    border-radius: 15px;   
+    margin-top: 100px;
+}
+
+/* about */
+.about {
+    height: 75vh;
+    margin: auto;
+    padding-top: 90px;
+    overflow: hidden;
+}
+
+
+.about img
+{
+    height: 534px;
+    margin: 10px 100px 10px 150px;
+    float: left;
+
+}
+
+.about-caption h2
+{
+    font-size: 32px;
+    text-align: center;
+}
+
+.about-caption p
+{
+    font-size: 17px;
+    margin: 20px 0;
+    color: #686868;
+    text-align: left;
+    line-height: 2;
+}
+.about-caption
+{
+    width: 35%;
+    float: left;
+    margin: auto;
+    /* background-color: rebeccapurple; */
+    margin-top: 70px;
+}
+
+.about-list
+{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    /* background-color: yellow; */
+}
+
+.about-list ul
+{
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #686868;
+    /* list-style: none; */
+}
+
+.about-list ul li
+{
+    margin: 30px 0;
+}
+.about-caption h2
+{
+    font-weight: 400;
+    float: left;
+}
+
+/* location */
+.location 
+{
+    height: 632px;
+    background-color: #F8F8F8;
+    overflow: hidden;
+}
+
+
+.location-caption
+{
+    width: 600px;
+    margin-top: 180px;
+    margin-left: 330px;
+    float: left;
+}
+.location-caption h2
+{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+.location-caption p
+{
+    color: #686868;
+    font-size: 17px;
+    line-height: 32px;
+    padding-top: 20px;
+}
+
+.location img
+{
+    height: 450px;
+    float: left;
+    margin-top: 90px;
+    margin-left: 85px;
+}
+
+/* baking */
+/* baking */
+.baking {
+    height: 795px;
+    /* background-color: darksalmon; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.baking h1 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.baking-content h3
+{
+    font-weight: 400;
+    size: 22px;
+    line-height: 30px;
+}
+
+.baking p {
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #686868;
+}
+
+.baking-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.bb {
+    /* background-color: pink; */
+    flex: 1;
+    /* padding-right: 10px; */
+    width: 380px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.bimg {
+    height: 315px;
+    /* width: 100%; */
+}
+
+.baking-1 , .baking-2 , .baking-3
+{
+    margin-right: 20px;
+}
+
+
+/* contact */
+.contact
+{
+    height: 720px;
+    background-color: #F8F8F8;
+    overflow: auto;
+}
+
+.contact-caption
+{   
+    /* background-color: yellow; */
+    width: 560px;
+    height: 510px;
+    margin-left: 330px;
+    margin-top: 115px;
+    text-align: left;
+    float: left;
+}
+
+.contact-caption h2
+{
+    font-weight: 400;
+    font-size: 32px;
+    color: #303030;
+}
+
+.contact-caption p
+{
+    line-height: 32px;
+    font-size: 17px;
+    color: #686868;
+    padding-top: 40px;
+
+}
+
+.contact-caption ul li
+{
+line-height: 40px;
+color: #686868;
+padding-left: 20px;
+font-size: 17px;
+font-weight: 400;
+
+}
+
+.contact iframe
+{
+    margin-top: 135px;
+    margin-left: 125px;
+}
+
+/* footer footer  */
+
+footer
+{
+    height: 770px;;
+    background-color: #353330;
+    overflow: auto;
+}
+
+/* footer-one  */
+.footer-one
+{
+    background-color: #403D38;
+    width: 100%;
+    height: 57%;
+    overflow: auto;
+    padding-left: 10%;
+    /* padding: 65px 340px; */
+}
+
+.footer-first , .footer-second , .footer-third , .footer-fourth
+{   
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 16%;
+    height: 70%;
+    /* background-color: red; */
+    padding-top: 1%;
+    float: left;
+}
+
+
+.footer-one p
+{
+    font-weight: 400;
+    color:#969696;
+    font-size: 16px;
+    line-height: 30px;  
+}
+
+.footer-one li
+{
+    font-weight: 400;
+    color:#969696;
+    font-size: 16px;
+    line-height: 35px;  
+}
+
+.footer-one ul
+{
+    padding-left: 20px;
+}
+.footer-one h3
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-one hr
+{
+    border-top: .5px solid #47443F;
+    height: 0; }
+
+
+/* footer-two  */
+.footer-two
+{
+    background: #353330;
+    height: 43%;
+    text-align: center;
+    overflow: auto;
+}
+
+.footer-two .logo
+{
+    margin: auto;
+    display: block;
+    width: 365px;
+    height: auto;
+    margin-top: 75px;
+}
+
+.footer-two p
+{
+    color: #777777;
+    margin-top: 45px;
+}
+
+.footer-two .social
+{
+    margin-top: 25px;
+}
+.footer-two img
+{
+    height: 40px;
+    width: auto;
+}
+
+
+
+/* footer */
